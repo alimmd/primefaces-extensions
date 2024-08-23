@@ -70,7 +70,7 @@
     </developers>
     <modules>
         <module>core</module>
-        <module>monacoeditor</module>
+        <!-- <module>monacoeditor</module> -->
         <module>showcase</module>
     </modules>
     <scm>
@@ -124,11 +124,11 @@
                 <artifactId>primefaces</artifactId>
                 <version>${primefaces.core.version}</version>
             </dependency>
-            <dependency>
+         <!--    <dependency>
                 <groupId>org.primefaces.extensions</groupId>
                 <artifactId>resources-monacoeditor</artifactId>
                 <version>${project.version}</version>
-            </dependency>
+            </dependency> -->
             <!-- Commons -->
             <dependency>
                 <groupId>org.apache.commons</groupId>
